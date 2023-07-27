@@ -1,0 +1,93 @@
+:root {
+    --siteRedColor : red;
+}
+
+
+/* main menu ------------------------------ */ 
+.navbar {
+    padding-left: 7%;
+    padding-right: 7%;
+    border-top: solid var(--siteRedColor) 3px;
+}
+.nav-link {
+    color: white !important;
+    transition: all 0.3s;
+}
+.nav-link:hover {
+    color: var(--siteRedColor) !important;
+    transition: all 0.5s;
+}
+.mainMenuSocialIcons {
+    min-width: 10%;
+    justify-content: space-between;
+    color: white;
+}
+
+/* ------------- slider --------------- */
+.carousel-caption {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 90%;
+}
+.carousel-caption h5 {
+    color: white !important;
+    font-size: 36px;
+    font-style: italic;
+}
+.carousel-caption p {
+    color: white !important;
+    font-size: 64px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.carousel-caption button {
+    width: 175px;
+    height: 45px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    box-shadow: 2px 1px 3px #3333;
+    background-color: white;
+    color: var(--siteRedColor);
+    transition: all 0.4s;
+}
+.carousel-caption button:hover {
+    color: white;
+    background-color: var(--siteRedColor);
+    transition: all 0.4s;
+}
+.sliderArrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-color: rgba(22, 22, 22, 0.9);
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    color: white !important;
+    filter: none !important;
+}
+.carousel-indicators {
+    display: flex;
+    align-items: center;
+}
+.carousel-indicators button {
+    width: 12px !important;
+    height: 12px !important;
+    border-radius: 50% !important;
+    background-color: white !important;
+}
+.carousel-indicators button.active {
+    background-color: var(--siteRedColor) !important;
+    border: 2px solid white;
+}
+
+/* ---------footer --------------- */
+
+.gallery img {
+    width: 100%;
+}
